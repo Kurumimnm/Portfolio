@@ -1,0 +1,30 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+  }
+  .menu {
+    font-size: 24px;
+    display: flex;
+    .link {
+      text-decoration: none;
+      color: white;
+      font-family: "sole-serif-titling-variable", sans-serif;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      display: flex;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: white;
+        cursor: pointer;
+        display: inline-block;
+        transform: scale(98%);
+      }
+    }
+  }
+}
