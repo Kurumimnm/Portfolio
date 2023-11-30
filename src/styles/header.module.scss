@@ -2,19 +2,25 @@
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: #20202380;
+  font-family: "Lucida Sans Unicode";
   .title {
     font-size: 36px;
     font-weight: bold;
     color: white;
+    margin-right: 2rem;
+    &:hover {
+      cursor: pointer;
+    }
   }
   .menu {
+    align-items: center;
     font-size: 24px;
     display: flex;
     .link {
       text-decoration: none;
       color: white;
-      font-family: "sole-serif-titling-variable", sans-serif;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       display: flex;

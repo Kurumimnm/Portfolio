@@ -5,11 +5,15 @@ function Header() {
   return (
     <>
       <div className={style.header}>
-        <p className={style.title}>Taka</p>
+        <p
+          className={style.title}
+          onClick={() => {
+            location.href = "./";
+          }}
+        >
+          Home
+        </p>
         <div className={style.menu}>
-          <a href="./" className={style.link}>
-            Home
-          </a>
           <a href="./works" className={style.link}>
             Works
           </a>
