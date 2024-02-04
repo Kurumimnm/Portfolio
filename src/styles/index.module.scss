@@ -1,0 +1,111 @@
+.display {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+
+    .profile {
+        // background-color: green;
+        height: 400px;
+        // background-color: aqua;
+        margin-top: 200px;
+        
+        .name {
+            font-size: 5em;
+            font-weight: bold;
+        }
+        .subName {
+            font-size: 2.5em;
+            color: rgb(209, 209, 209);
+        }
+    }
+
+    .info { 
+        text-align: left;
+        height: 400px;
+        margin-top: 400px;
+        font-size: 24px;
+    }
+
+    .introduction {
+        font-size: 24px;
+        text-align:center;
+        margin-top: 300px;
+    }
+
+    .works{
+        margin-top: 500px;
+        // background-color: blue;
+        padding-top: 75px;
+    
+        .title {
+            color: rgb(210, 226, 241);
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .protopedia {
+            margin-top: 50px;
+           .imageicon {
+                margin: 0;
+                padding: 0;
+                height: 40px;
+                margin-right: 10px;
+            }
+            .image {
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                height: 35px;
+            } 
+        }
+    }
+    .skills {
+        margin-top: 500px;
+        // background-color: gray;
+
+        h2 {
+            font-size: 2em;
+            padding-top: 75px;
+        }
+        .icon {
+            margin: 20px 40px 20px 0px;
+            color: white;
+            height: 30px;
+            width: 30px;
+        }
+    }
+    .links {
+        margin-top: 500px;
+        margin-bottom: 300px;
+        // background-color: blue;
+
+        .mail {
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            // background-color: red;
+            font-size: 1.5em;
+        }
+
+        .icons {
+            // background-color: green;
+            text-align: center;
+            margin-top: 30px;
+            .icon {
+                color: white;
+                height: 30px;
+                width: 30px;
+                margin-left: 30px;
+                margin-right: 30px;
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(210, 226, 241);
+                }
+            }
+        }
+    }
+    
+}
+
+
+

@@ -2,14 +2,18 @@
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
   background-color: #20202380;
   font-family: "Lucida Sans Unicode";
+  // background-color: red;
+  height: 55px;
+  width: 80%;
   .title {
     font-size: 36px;
     font-weight: bold;
     color: white;
-    margin-right: 2rem;
     &:hover {
       cursor: pointer;
     }
@@ -18,12 +22,12 @@
     align-items: center;
     font-size: 24px;
     display: flex;
+    margin-right: 20px;
     .link {
       text-decoration: none;
       color: white;
       margin-left: 0.5rem;
       margin-right: 0.5rem;
-      display: flex;
       &:hover {
         text-decoration: underline;
         text-decoration-color: white;

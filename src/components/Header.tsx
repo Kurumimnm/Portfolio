@@ -11,13 +11,16 @@ function Header() {
             location.href = "./";
           }}
         >
-          Home
+          Profile
         </p>
         <div className={style.menu}>
-          <a href="./works" className={style.link}>
+          <a href="#works" className={style.link}>
             Works
           </a>
-          <a href="./links" className={style.link}>
+          <a href="#skills" className={style.link}>
+            Skills
+          </a>
+          <a href="#links" className={style.link}>
             Links
           </a>
         </div>
